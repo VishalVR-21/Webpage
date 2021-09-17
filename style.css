@@ -3,13 +3,13 @@ body
 {
     align-content:flex-start;
     background-image: url('https://buffer.com/library/content/images/library/wp-content/uploads/2016/06/giphy.gif');
-    background-size:cover;
+    background-size:1050px;
     
     
     
-    height: 1vh;
-    padding:0;
-    margin:0;
+    height: 2vh;
+    padding:2p;
+    margin: 1px;;
 
 }
 img
@@ -21,8 +21,10 @@ img
     position:static;
     align-items: center;
     border-style: outset;
+    border-color:black;
     align-content: center;
     animation: flip 4s linear 1s reverse right forwards;
+    animation-play-state: running;
     shape-outside: image();
     border-radius: 50%;
 }
@@ -39,8 +41,8 @@ a:link, a:visited {
     background-color: skyblue;
     color: white;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
+    text-decoration:blue;
+    display:inline-flex;
   }
   
   a:hover, a:active {
@@ -48,7 +50,7 @@ a:link, a:visited {
   }
   h1{
     font-variant: normal;
-    color:rgb(4, 255, 4);
+    color:green;
     font-size: xx-large;
   }
   title
@@ -61,27 +63,38 @@ a:link, a:visited {
  {
    text-align: center;
    background-color: skyblue;
-   margin:2px;
-   padding: 10px;
+   margin: 20px;
+   padding: 20px;
  }
  .hello
  {
    border-radius: 2cm;
-   box-decoration-break:clone;
-   border-style:solid;
+   box-decoration-break:slice;
+   border-style:outset;
    margin-bottom: auto;
+   border-color: black;
+
    
  }
  .flex-container{
-  display: inline-block;
-  vertical-align: top;
-  padding: 0 0 0 5px;
-  -moz-box-sizing: border-box;
+  display:block;
+  padding: 0 0 0 10px;
+  bottom: border-box;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+  box-sizing:content-box;
+
 }
 
 .flex-container p{
    padding: 0;
-   margin: 0 0 10px;
+   margin: 0 0 20px;
+}
+.img_text
+{
+  display: inline-flex;
+  flex-direction: column;
+}
+.dp
+{
+  animation-direction: normal;
 }
