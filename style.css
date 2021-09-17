@@ -3,10 +3,10 @@ body
 {
     align-content:flex-start;
     background-image: url('https://buffer.com/library/content/images/library/wp-content/uploads/2016/06/giphy.gif');
-    background-size:1050px;
+    background-size:cover;
     
     
-    
+   
     height: 2vh;
     padding:2p;
     margin: 1px;;
